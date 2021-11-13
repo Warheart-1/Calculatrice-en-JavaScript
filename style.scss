@@ -1,0 +1,48 @@
+@import "style2.scss";
+html{
+    body{
+        margin:0;
+        padding: 0;
+        background-color:rgba(54, 54, 54, 0.8);
+        color: white;
+    }
+}
+
+.calculator{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25%;
+}
+
+#result_operator{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#red{
+    border: 5px solid red;
+    clear: both;
+}
+
+#refresh{
+    border-radius: 2em;
+    border-color: $main_color_text;
+}
+
+
+.title{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.form{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}

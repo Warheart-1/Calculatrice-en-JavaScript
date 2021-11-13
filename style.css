@@ -1,0 +1,62 @@
+html body {
+  margin: 0;
+  padding: 0;
+  background-color: rgba(54, 54, 54, 0.8);
+  color: white;
+}
+
+.calculator {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25%;
+}
+
+#result_operator {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.red {
+  border: 5px solid red;
+  clear: both;
+}
+
+.red1{
+  border: unset;
+  clear: both;
+}
+
+.reset-button{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+#refresh {
+  border-radius: 2em;
+  border-color: black;
+
+}
+
+.title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#add, #moins, #times, #divise, #number2{
+  margin-left: 5px;
+}
+/*# sourceMappingURL=style.css.map */
